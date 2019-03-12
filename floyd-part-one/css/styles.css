@@ -1,0 +1,120 @@
+
+
+body {
+    Font-family: Fira Sans;
+    background-color: #F0ECEE;
+    font-size: 1em;
+    margin: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.75em;
+    margin: 40px 0 10px 0;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.25em;
+    margin: 0;
+    flex-grow: 1;
+}
+
+em {
+    color: #FF4850;
+    font-style: normal;
+}
+
+button {
+    background-color: #FF4850;  
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #CCC;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    font-weight: 300;
+    margin: 15px 0 15px 0;
+}
+
+ul li a {
+    color: #88898B;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #FF4850;
+}
+
+p {
+    font-weight: 300;
+    font-size: .75em;
+    color: #88898B;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    body {
+        margin: 30px 40px;
+    }
+    
+    header {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    ul li {
+        padding-right: 20px;
+    }
+    
+    h1 {
+        margin-bottom: 0;
+    }
+    
+    section h1 {
+        width: 45%;
+    }
+    
+    section {
+        padding-top: 60px;
+        margin-top: 40px;
+        background: url("../bulldog.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 898px;
+    }
+    
+    section p {
+        width: 33%;
+        line-height: 1.5em;
+    }
+    
+    section button {
+        width: 20%;
+        margin-top: 10px;
+    }
+    
+}
