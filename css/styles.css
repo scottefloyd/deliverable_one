@@ -10,12 +10,6 @@ header {
     flex-direction: column;
 }
 
-section {
-/*
-    display: flex;
-    flex-direction: column;
-*/
-}
 
 h1 {
     font-weight: 600;
@@ -78,7 +72,6 @@ p {
     
 
     body {
-/*        margin: 30px 40px;*/
         background: url("../bulldog.jpg");
         background-repeat: no-repeat;
         background-position: top center;
